@@ -174,14 +174,13 @@
         return m;
     };
 
-    var botCreator = "Matthew (Yemasthui)";
-    var botMaintainer = "Benzi (Quoona)"
-    var botCreatorIDs = ["3851534", "4105209"];
-
+    var botCreator = "Re-Flex";
+    var botMaintainer = "Tea"
+    
     var basicBot = {
         version: "2.3.4",
         status: false,
-        name: "basicBot",
+        name: "BalkanArmyBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
@@ -191,7 +190,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "BalkanArmyBot",
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
             startupCap: 1, // 1-200
@@ -332,7 +331,7 @@
             newBlacklisted: [],
             newBlacklistedSongFunction: null,
             roulette: {
-                rouletteStatus: false,
+                rouletteStatus: true,
                 participants: [],
                 countdown: null,
                 startRoulette: function () {
